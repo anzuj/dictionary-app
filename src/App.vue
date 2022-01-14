@@ -14,5 +14,6 @@
 #app {
     font-family: Montserrat, sans-serif;
     color: #25292e;
+    background-color: rgb(235, 235, 235);
 }
 </style>
