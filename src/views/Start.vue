@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1 class="text-center">Dictionary Management app</h1>
+    <h1 class="text-center">Dictionary Manager</h1>
 
     <v-card outlined class="">
         <h3 class="pa-2">Datasets</h3>

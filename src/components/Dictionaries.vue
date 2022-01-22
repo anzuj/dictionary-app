@@ -8,6 +8,11 @@
       hide-default-footer
       disable-pagination
     >
+       <template v-slot:item.domain="{ item }">
+      <v-icon :color="item.hex">mdi-square-rounded</v-icon>
+      {{item.domain}}
+
+    </template>
     </v-data-table>
   </div>
 </template>
