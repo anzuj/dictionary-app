@@ -13,7 +13,7 @@
     </div>
 
     <v-card-text>
-      <v-img :src="require('../assets/arrow-right.png')" class="mx-auto" contain height="40" />
+      <v-img :src="require('@/assets/arrow-right.png')" class="mx-auto" contain height="40" />
       <v-row>
         <v-col>
           <v-text-field
@@ -21,7 +21,7 @@
             v-model.trim="domain"
             placeholder="domain"
             solo
-            background-color="teal lighten-5"
+            background-color="primary lighten-5"
             flat
             hide-details
             @keydown.enter="addSet"
@@ -31,7 +31,7 @@
             v-model.trim="range"
             placeholder="range"
             solo
-            background-color="teal lighten-5"
+            background-color="primary lighten-5"
             flat
             hide-details
             class="mt-1"

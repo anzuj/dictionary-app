@@ -1,7 +1,7 @@
 <template>
   <div v-if="datasets && currentDataset">
       <!-- {{currentDataset}} -->
-<v-select v-model="currentDataset" :items="datasets" item-text="name" return-object  label="Dataset" solo flat background-color="teal lighten-5" style="max-width: 600px">
+<v-select v-model="currentDataset" :items="datasets" item-text="name" return-object  label="Dataset" solo flat background-color="primary lighten-5" style="max-width: 600px">
 
 </v-select>
     <v-data-table
@@ -36,7 +36,7 @@ height:100%; object-fit: contain"></v-avatar>
 </template>
 
 <script>
-import ValidateSet  from "@/components/ValidateSet.vue";
+import ValidateSet  from "@/components/Datasets/ValidateSet.vue";
 export default {
   props: [""],
   components: {ValidateSet},
